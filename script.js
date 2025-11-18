@@ -1,6 +1,6 @@
 function getWeather()
 {
-    const apkk='95d0ccbc21979f35dbdb609b40b7ec52';
+    const apkk='';
     const ctt= document.getElementById('city').value;
     if(!ctt)
     {
@@ -96,4 +96,5 @@ function showImage()
 {
     const weatherIcon = document.getElementById('weather-icon');
     weatherIcon.style.display = 'block'; 
+
 }
